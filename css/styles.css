@@ -405,7 +405,7 @@ img {
 .portfolio-list-item {
   width: 370px;
   height: 404px;
-  border: 1px solid var(--header-border-color);
+  border-bottom: 1px solid var(--header-border-color);
 }
 
 .portfolio-list-item:nth-child(3n + 1) {
