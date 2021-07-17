@@ -149,6 +149,12 @@ img {
   background-color: var(--es-and-footer-bg-color);
 }
 
+.effective-solutions .container {
+  display: block;
+  padding: 106px 0;
+  text-align: center;
+}
+
 .effective-solutions-title {
   color: var(--white-color);
   font-family: inherit;
@@ -160,7 +166,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
-  margin: 200px auto 0;
+  margin: 0 auto;
 }
 
 .order-service-button {
@@ -171,12 +177,13 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   width: 200px;
   height: 50px;
-  margin: 30px 500px 200px 500px;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 30px auto 0px;
 }
 
 .order-service-button:hover,
@@ -370,6 +377,8 @@ img {
   letter-spacing: 0.03em;
   width: 121px;
   height: 38px;
+  border: none;
+  border-radius: 4px;
 }
 
 .filter-button:hover,
